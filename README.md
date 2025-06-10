@@ -33,9 +33,7 @@ Key data components:
 You can run this project in two modes:
 
 **⚙️ Option 1: Run Without the Dashboard (Script Mode)**
-
-If you prefer running the model from a Python script in Jupyter Notebook or VS Code:
-
+**If you prefer running the model from a Python script in Jupyter Notebook or VS Code:**
 ### 1. Clone the Repository & Install Requirements
 ```bash
 pip install fastf1 pandas numpy matplotlib scikit-learn
@@ -59,7 +57,7 @@ You will be prompted to:
 - Select rain condition (No rain / Light / Heavy)
 
 **🖥️ Option 2: Run with the Streamlit Dashboard (Recommended)**
-If you want a web-based interactive experience:
+**If you want a web-based interactive experience:**
 ### 1. Clone the Repository & Install Requirements
 ```bash
 pip install fastf1 pandas numpy matplotlib scikit-learn streamlit
