@@ -2,11 +2,12 @@
 
 ## 🧩 Overview
 This project predicts Formula 1 race lap times using driver sector performance, qualifying sessions, team standings, and weather conditions. It integrates real-world data via the **FastF1** API and enhances accuracy using a **Gradient Boosting Regressor** model with historical team performance and wet-weather adaptability.
+A Streamlit dashboard has been added to allow interactive selection of races, driver input, and real-time predictions.
 
 ## 🎯 Project Objective
 
 - **Initial Goal**: Predict adjusted race lap times for drivers in upcoming GPs using relevant track and driver data.
-- **Final Outcome**: Built a high-precision machine learning model that outputs a predicted finishing order and highlights key performance features.
+- **Final Outcome**: Built a high-precision machine learning model that outputs a predicted finishing order and highlights key performance features. The model is now served through a web-based interface using Streamlit.
 
 ## 🗂️ Dataset & Inputs
 
@@ -24,6 +25,7 @@ Key data components:
 - **Python**
 - **FastF1** – Formula 1 data scraping
 - **Scikit-learn** – Model training and evaluation
+- **Streamlit** – Interactive dashboard
 - **Matplotlib** – Visualization
 - **Pandas, NumPy** – Data transformation
 
@@ -31,7 +33,7 @@ Key data components:
 
 ### 1. Clone the Repository & Install Requirements
 ```bash
-pip install fastf1 pandas numpy matplotlib scikit-learn
+pip install fastf1 pandas numpy matplotlib scikit-learn streamlit
 ```
 
 ### 2. Enable FastF1 Caching
@@ -42,8 +44,8 @@ fastf1.Cache.enable_cache("f1_cache")
 
 ### 3. Run the Model
 Open the script in Jupyter or VS Code and execute:
-```python
-python race_time_predictor.py
+```bash
+streamlit run app.py
 ```
 
 You will be prompted to:
@@ -90,10 +92,13 @@ You will be prompted to:
 - Sector performance is a stronger predictor than qualifying time alone.
 - Constructor performance has a tangible impact on predicted outcomes.
 - The model adapts for rain using driver-specific wet weather profiles.
+- A dashboard-based approach allows fast iteration, testing, and visualization of race scenarios.
 
 ## 📈 Future Enhancements
 
 - Add live race-day telemetry data (pit stops, tire degradation)
 - Simulate race incidents like safety cars and DNFs
 - Visualize full-race simulations with animated lap-by-lap results
-- Enable web-based input interface using Streamlit
+- 🔧 Enable toggling between live FastF1 data and offline fallback mode
+- Export predictions to CSV or PDF
+- Add scenario simulation controls for pit stop strategies and tire compounds
