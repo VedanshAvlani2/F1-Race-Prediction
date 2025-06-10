@@ -30,7 +30,34 @@ Key data components:
 - **Pandas, NumPy** – Data transformation
 
 ## 🚀 How to Run
+You can run this project in two modes:
 
+⚙️ Option 1: Run Without the Dashboard (Script Mode)
+If you prefer running the model from a Python script in Jupyter Notebook or VS Code:
+### 1. Clone the Repository & Install Requirements
+```bash
+pip install fastf1 pandas numpy matplotlib scikit-learn
+```
+
+### 2. Enable FastF1 Caching
+On first run, FastF1 will prompt to download session data:
+```python
+fastf1.Cache.enable_cache("f1_cache")
+```
+
+### 3. Run the Model
+Open the script in Jupyter or VS Code and execute:
+```bash
+python F1_Race_Predictor.py
+```
+
+You will be prompted to:
+- Choose the race round (2024 season)
+- Enter driver qualifying times
+- Select rain condition (No rain / Light / Heavy)
+
+🖥️ Option 2: Run with the Streamlit Dashboard (Recommended)
+If you want a web-based interactive experience:
 ### 1. Clone the Repository & Install Requirements
 ```bash
 pip install fastf1 pandas numpy matplotlib scikit-learn streamlit
@@ -47,11 +74,11 @@ Open the script in Jupyter or VS Code and execute:
 ```bash
 streamlit run app.py
 ```
-
-You will be prompted to:
-- Choose the race round (2024 season)
-- Enter driver qualifying times
-- Select rain condition (No rain / Light / Heavy)
+You will be able to:
+- Select any completed race from the 2024 calendar
+- Enter qualifying times for all drivers
+- Choose weather conditions (No Rain / Light Rain / Heavy Rain)
+- View predicted results, model accuracy, and feature importance live
 
 ## 🔁 Workflow
 
