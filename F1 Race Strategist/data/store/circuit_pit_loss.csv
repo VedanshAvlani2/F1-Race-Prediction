@@ -1,0 +1,27 @@
+event,pit_loss_s,pit_loss_std,n_stops,n_races,low_confidence
+Abu Dhabi Grand Prix,23.34,5.39,122,4,False
+Australian Grand Prix,21.4,6.07,62,5,False
+Austrian Grand Prix,21.66,4.5,174,5,False
+Azerbaijan Grand Prix,22.51,4.45,57,4,False
+Bahrain Grand Prix,24.88,4.07,157,4,False
+Barcelona Grand Prix,25.04,2.61,40,1,False
+Belgian Grand Prix,19.64,9.52,133,4,False
+British Grand Prix,27.25,9.84,124,5,False
+Canadian Grand Prix,20.44,6.12,96,5,False
+Chinese Grand Prix,24.74,6.96,54,3,False
+Dutch Grand Prix,23.98,7.61,117,4,False
+Emilia Romagna Grand Prix,29.17,11.5,61,3,False
+French Grand Prix,29.31,8.77,9,1,True
+Hungarian Grand Prix,21.7,3.18,145,4,False
+Italian Grand Prix,25.69,3.37,93,4,False
+Japanese Grand Prix,23.94,5.79,120,5,False
+Las Vegas Grand Prix,23.65,4.34,71,3,False
+Mexico City Grand Prix,23.31,3.7,86,4,False
+Miami Grand Prix,20.36,4.67,76,5,False
+Monaco Grand Prix,22.47,12.53,112,5,False
+Qatar Grand Prix,28.04,3.81,79,3,False
+Saudi Arabian Grand Prix,21.64,6.53,36,4,False
+Singapore Grand Prix,27.63,5.9,54,4,False
+Spanish Grand Prix,23.3,4.28,177,4,False
+São Paulo Grand Prix,22.42,3.44,106,4,False
+United States Grand Prix,21.5,2.71,104,4,False

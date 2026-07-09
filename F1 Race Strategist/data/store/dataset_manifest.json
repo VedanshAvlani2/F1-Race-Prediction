@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-07-08T02:11:29.638356+00:00",
+  "races_found": 101,
+  "races_processed": 101,
+  "failures": [],
+  "stint_lap_rows": 109060,
+  "pit_stop_rows": 2465,
+  "circuits_with_pit_loss": 26,
+  "merge_seconds": 1.0
+}

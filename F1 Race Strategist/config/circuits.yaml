@@ -1,0 +1,12 @@
+# Static circuit traits used as model features and rule context.
+# street: temporary or street circuit (historically higher incident rate)
+# Pit loss seconds are NOT stored here. They are computed from real
+# in-lap/out-lap data by data/pit_loss.py and stored in data/store/.
+street_circuits:
+  - Monaco Grand Prix
+  - Singapore Grand Prix
+  - Azerbaijan Grand Prix
+  - Saudi Arabian Grand Prix
+  - Miami Grand Prix
+  - Las Vegas Grand Prix
+  - Australian Grand Prix

@@ -1,0 +1,23 @@
+{
+  "SOFT": {
+    "deg_s_per_lap": 0.037,
+    "raw_stint_slope_s_per_lap": 0.0288,
+    "raw_slope_note": "fuel confounded, understates degradation",
+    "n_stints": 628,
+    "n_laps": 10743
+  },
+  "MEDIUM": {
+    "deg_s_per_lap": 0.0224,
+    "raw_stint_slope_s_per_lap": 0.0047,
+    "raw_slope_note": "fuel confounded, understates degradation",
+    "n_stints": 1743,
+    "n_laps": 33509
+  },
+  "HARD": {
+    "deg_s_per_lap": 0.0266,
+    "raw_stint_slope_s_per_lap": -0.0034,
+    "raw_slope_note": "fuel confounded, understates degradation",
+    "n_stints": 1669,
+    "n_laps": 40779
+  }
+}

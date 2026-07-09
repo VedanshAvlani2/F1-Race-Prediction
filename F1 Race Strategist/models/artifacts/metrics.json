@@ -1,0 +1,75 @@
+{
+  "trained_at": "2026-07-08T02:12:17.324509+00:00",
+  "tire_degradation": {
+    "model": "GradientBoostingRegressor",
+    "target": "lap time delta vs driver median clean race pace (s)",
+    "features": [
+      "tyre_life",
+      "track_temp",
+      "lap",
+      "compound_soft",
+      "compound_medium"
+    ],
+    "training_rows": 85031,
+    "races": 99,
+    "validation": "GroupKFold(5) grouped by race",
+    "cv_mae_s": 0.575,
+    "cv_mae_std": 0.016,
+    "cv_r2": 0.426,
+    "baseline_mae_s": 0.797,
+    "caveats": [
+      "Dry green flag laps only; wet degradation is out of scope.",
+      "Delta baseline absorbs car pace but traffic effects remain as noise the model cannot see."
+    ]
+  },
+  "compound_deg_rates": {
+    "SOFT": {
+      "deg_s_per_lap": 0.037,
+      "raw_stint_slope_s_per_lap": 0.0288,
+      "raw_slope_note": "fuel confounded, understates degradation",
+      "n_stints": 628,
+      "n_laps": 10743
+    },
+    "MEDIUM": {
+      "deg_s_per_lap": 0.0224,
+      "raw_stint_slope_s_per_lap": 0.0047,
+      "raw_slope_note": "fuel confounded, understates degradation",
+      "n_stints": 1743,
+      "n_laps": 33509
+    },
+    "HARD": {
+      "deg_s_per_lap": 0.0266,
+      "raw_stint_slope_s_per_lap": -0.0034,
+      "raw_slope_note": "fuel confounded, understates degradation",
+      "n_stints": 1669,
+      "n_laps": 40779
+    }
+  },
+  "safety_car": {
+    "model": "LogisticRegression",
+    "target": "at least one full safety car during the race",
+    "features": [
+      "circuit_rate_loo (shrunk, leakage-free)",
+      "street"
+    ],
+    "training_rows": 101,
+    "positive_rate": 0.554,
+    "validation": "leave-one-out cross validation",
+    "brier_model": 0.2567,
+    "brier_baseline_predict_base_rate": 0.247,
+    "log_loss": 0.7071,
+    "low_confidence": true,
+    "beats_baseline": false,
+    "caveats": [
+      "Only 101 races. Safety cars are rare events; per circuit sample sizes are 1-3 races. Treat as tendency, not truth.",
+      "VSC-only interruptions are not counted as full SC here.",
+      "If brier_model exceeds the baseline, the circuit features do not yet beat always-predicting-the-base-rate on this sample. The output is then best read as a smoothed base rate."
+    ]
+  },
+  "pit_loss": {
+    "method": "median of (in_lap + out_lap - 2 * driver median green lap) over all green flag stops per circuit",
+    "table": "C:\\Users\\Vedansh\\Documents\\Projects\\F1 Race Prediction\\strategy-engine\\data\\store\\circuit_pit_loss.csv"
+  },
+  "undercut_calculator": "deterministic, no training (models/undercut.py)",
+  "regulation_engine": "deterministic rule checks (models/regulations.py)"
+}

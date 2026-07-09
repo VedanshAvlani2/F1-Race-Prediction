@@ -1,0 +1,184 @@
+{
+  "source": "ergast_live",
+  "season": 2026,
+  "window": 5,
+  "computed_at": "2026-07-09T04:16:23.566432+00:00",
+  "drivers": {
+    "ALB": {
+      "driver": "Alexander Albon",
+      "races_counted": 1,
+      "avg_finish": 12.0,
+      "avg_positions_gained": 3.0,
+      "points_last_n": 0.0,
+      "dnf_rate": 0.0
+    },
+    "ALO": {
+      "driver": "Fernando Alonso",
+      "races_counted": 1,
+      "avg_finish": 18.0,
+      "avg_positions_gained": -1.0,
+      "points_last_n": 0.0,
+      "dnf_rate": 1.0
+    },
+    "ANT": {
+      "driver": "Andrea Kimi Antonelli",
+      "races_counted": 2,
+      "avg_finish": 1.5,
+      "avg_positions_gained": 0.0,
+      "points_last_n": 43.0,
+      "dnf_rate": 0.0
+    },
+    "BEA": {
+      "driver": "Oliver Bearman",
+      "races_counted": 2,
+      "avg_finish": 6.0,
+      "avg_positions_gained": 5.0,
+      "points_last_n": 16.0,
+      "dnf_rate": 0.0
+    },
+    "BOR": {
+      "driver": "Gabriel Bortoleto",
+      "races_counted": 1,
+      "avg_finish": 9.0,
+      "avg_positions_gained": 1.0,
+      "points_last_n": 2.0,
+      "dnf_rate": 0.0
+    },
+    "BOT": {
+      "driver": "Valtteri Bottas",
+      "races_counted": 1,
+      "avg_finish": 19.0,
+      "avg_positions_gained": 0.0,
+      "points_last_n": 0.0,
+      "dnf_rate": 1.0
+    },
+    "COL": {
+      "driver": "Franco Colapinto",
+      "races_counted": 1,
+      "avg_finish": 14.0,
+      "avg_positions_gained": 2.0,
+      "points_last_n": 0.0,
+      "dnf_rate": 0.0
+    },
+    "GAS": {
+      "driver": "Pierre Gasly",
+      "races_counted": 2,
+      "avg_finish": 8.0,
+      "avg_positions_gained": 2.5,
+      "points_last_n": 9.0,
+      "dnf_rate": 0.0
+    },
+    "HAD": {
+      "driver": "Isack Hadjar",
+      "races_counted": 2,
+      "avg_finish": 14.0,
+      "avg_positions_gained": -8.0,
+      "points_last_n": 4.0,
+      "dnf_rate": 0.5
+    },
+    "HAM": {
+      "driver": "Lewis Hamilton",
+      "races_counted": 2,
+      "avg_finish": 3.5,
+      "avg_positions_gained": 1.5,
+      "points_last_n": 27.0,
+      "dnf_rate": 0.0
+    },
+    "HUL": {
+      "driver": "Nico H\u00fclkenberg",
+      "races_counted": 1,
+      "avg_finish": 22.0,
+      "avg_positions_gained": -11.0,
+      "points_last_n": 0.0,
+      "dnf_rate": 1.0
+    },
+    "LAW": {
+      "driver": "Liam Lawson",
+      "races_counted": 2,
+      "avg_finish": 10.0,
+      "avg_positions_gained": 1.0,
+      "points_last_n": 6.0,
+      "dnf_rate": 0.0
+    },
+    "LEC": {
+      "driver": "Charles Leclerc",
+      "races_counted": 2,
+      "avg_finish": 3.5,
+      "avg_positions_gained": 0.5,
+      "points_last_n": 27.0,
+      "dnf_rate": 0.0
+    },
+    "LIN": {
+      "driver": "Arvid Lindblad",
+      "races_counted": 1,
+      "avg_finish": 8.0,
+      "avg_positions_gained": 1.0,
+      "points_last_n": 4.0,
+      "dnf_rate": 0.0
+    },
+    "NOR": {
+      "driver": "Lando Norris",
+      "races_counted": 1,
+      "avg_finish": 5.0,
+      "avg_positions_gained": 1.0,
+      "points_last_n": 10.0,
+      "dnf_rate": 0.0
+    },
+    "OCO": {
+      "driver": "Esteban Ocon",
+      "races_counted": 1,
+      "avg_finish": 11.0,
+      "avg_positions_gained": 2.0,
+      "points_last_n": 0.0,
+      "dnf_rate": 0.0
+    },
+    "PER": {
+      "driver": "Sergio P\u00e9rez",
+      "races_counted": 1,
+      "avg_finish": 16.0,
+      "avg_positions_gained": 2.0,
+      "points_last_n": 0.0,
+      "dnf_rate": 0.0
+    },
+    "PIA": {
+      "driver": "Oscar Piastri",
+      "races_counted": 1,
+      "avg_finish": 21.0,
+      "avg_positions_gained": -16.0,
+      "points_last_n": 0.0,
+      "dnf_rate": 1.0
+    },
+    "RUS": {
+      "driver": "George Russell",
+      "races_counted": 2,
+      "avg_finish": 1.5,
+      "avg_positions_gained": 0.0,
+      "points_last_n": 43.0,
+      "dnf_rate": 0.0
+    },
+    "SAI": {
+      "driver": "Carlos Sainz",
+      "races_counted": 1,
+      "avg_finish": 15.0,
+      "avg_positions_gained": 6.0,
+      "points_last_n": 0.0,
+      "dnf_rate": 0.0
+    },
+    "STR": {
+      "driver": "Lance Stroll",
+      "races_counted": 1,
+      "avg_finish": 17.0,
+      "avg_positions_gained": 5.0,
+      "points_last_n": 0.0,
+      "dnf_rate": 0.0
+    },
+    "VER": {
+      "driver": "Max Verstappen",
+      "races_counted": 1,
+      "avg_finish": 6.0,
+      "avg_positions_gained": 14.0,
+      "points_last_n": 8.0,
+      "dnf_rate": 0.0
+    }
+  }
+}

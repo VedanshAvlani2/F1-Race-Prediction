@@ -1,0 +1,253 @@
+{
+  "season": 2026,
+  "round": 9,
+  "fetched_at": "2026-07-09T04:17:09.230858+00:00",
+  "drivers": [
+    {
+      "position": 1,
+      "driver": "Andrea Kimi Antonelli",
+      "code": "ANT",
+      "team": "Mercedes",
+      "points": 179.0,
+      "wins": 5
+    },
+    {
+      "position": 2,
+      "driver": "George Russell",
+      "code": "RUS",
+      "team": "Mercedes",
+      "points": 154.0,
+      "wins": 2
+    },
+    {
+      "position": 3,
+      "driver": "Lewis Hamilton",
+      "code": "HAM",
+      "team": "Ferrari",
+      "points": 147.0,
+      "wins": 1
+    },
+    {
+      "position": 4,
+      "driver": "Charles Leclerc",
+      "code": "LEC",
+      "team": "Ferrari",
+      "points": 108.0,
+      "wins": 1
+    },
+    {
+      "position": 5,
+      "driver": "Lando Norris",
+      "code": "NOR",
+      "team": "McLaren",
+      "points": 97.0,
+      "wins": 0
+    },
+    {
+      "position": 6,
+      "driver": "Oscar Piastri",
+      "code": "PIA",
+      "team": "McLaren",
+      "points": 82.0,
+      "wins": 0
+    },
+    {
+      "position": 7,
+      "driver": "Max Verstappen",
+      "code": "VER",
+      "team": "Red Bull",
+      "points": 76.0,
+      "wins": 0
+    },
+    {
+      "position": 8,
+      "driver": "Isack Hadjar",
+      "code": "HAD",
+      "team": "Red Bull",
+      "points": 52.0,
+      "wins": 0
+    },
+    {
+      "position": 9,
+      "driver": "Pierre Gasly",
+      "code": "GAS",
+      "team": "Alpine F1 Team",
+      "points": 42.0,
+      "wins": 0
+    },
+    {
+      "position": 10,
+      "driver": "Liam Lawson",
+      "code": "LAW",
+      "team": "RB F1 Team",
+      "points": 39.0,
+      "wins": 0
+    },
+    {
+      "position": 11,
+      "driver": "Arvid Lindblad",
+      "code": "LIN",
+      "team": "RB F1 Team",
+      "points": 20.0,
+      "wins": 0
+    },
+    {
+      "position": 12,
+      "driver": "Oliver Bearman",
+      "code": "BEA",
+      "team": "Haas F1 Team",
+      "points": 18.0,
+      "wins": 0
+    },
+    {
+      "position": 13,
+      "driver": "Franco Colapinto",
+      "code": "COL",
+      "team": "Alpine F1 Team",
+      "points": 18.0,
+      "wins": 0
+    },
+    {
+      "position": 14,
+      "driver": "Gabriel Bortoleto",
+      "code": "BOR",
+      "team": "Audi",
+      "points": 6.0,
+      "wins": 0
+    },
+    {
+      "position": 15,
+      "driver": "Carlos Sainz",
+      "code": "SAI",
+      "team": "Williams",
+      "points": 6.0,
+      "wins": 0
+    },
+    {
+      "position": 16,
+      "driver": "Alexander Albon",
+      "code": "ALB",
+      "team": "Williams",
+      "points": 5.0,
+      "wins": 0
+    },
+    {
+      "position": 17,
+      "driver": "Esteban Ocon",
+      "code": "OCO",
+      "team": "Haas F1 Team",
+      "points": 3.0,
+      "wins": 0
+    },
+    {
+      "position": 18,
+      "driver": "Fernando Alonso",
+      "code": "ALO",
+      "team": "Aston Martin",
+      "points": 1.0,
+      "wins": 0
+    },
+    {
+      "position": 19,
+      "driver": "Nico H\u00fclkenberg",
+      "code": "HUL",
+      "team": "Audi",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 20,
+      "driver": "Valtteri Bottas",
+      "code": "BOT",
+      "team": "Cadillac F1 Team",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 21,
+      "driver": "Sergio P\u00e9rez",
+      "code": "PER",
+      "team": "Cadillac F1 Team",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 22,
+      "driver": "Lance Stroll",
+      "code": "STR",
+      "team": "Aston Martin",
+      "points": 0.0,
+      "wins": 0
+    }
+  ],
+  "constructors": [
+    {
+      "position": 1,
+      "team": "Mercedes",
+      "points": 333.0,
+      "wins": 7
+    },
+    {
+      "position": 2,
+      "team": "Ferrari",
+      "points": 255.0,
+      "wins": 2
+    },
+    {
+      "position": 3,
+      "team": "McLaren",
+      "points": 179.0,
+      "wins": 0
+    },
+    {
+      "position": 4,
+      "team": "Red Bull",
+      "points": 128.0,
+      "wins": 0
+    },
+    {
+      "position": 5,
+      "team": "Alpine F1 Team",
+      "points": 60.0,
+      "wins": 0
+    },
+    {
+      "position": 6,
+      "team": "RB F1 Team",
+      "points": 59.0,
+      "wins": 0
+    },
+    {
+      "position": 7,
+      "team": "Haas F1 Team",
+      "points": 21.0,
+      "wins": 0
+    },
+    {
+      "position": 8,
+      "team": "Williams",
+      "points": 11.0,
+      "wins": 0
+    },
+    {
+      "position": 9,
+      "team": "Audi",
+      "points": 6.0,
+      "wins": 0
+    },
+    {
+      "position": 10,
+      "team": "Aston Martin",
+      "points": 1.0,
+      "wins": 0
+    },
+    {
+      "position": 11,
+      "team": "Cadillac F1 Team",
+      "points": 0.0,
+      "wins": 0
+    }
+  ],
+  "tracker_status": "no_new_race",
+  "stale": false
+}

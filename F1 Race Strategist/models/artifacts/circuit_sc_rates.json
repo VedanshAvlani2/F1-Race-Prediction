@@ -1,0 +1,161 @@
+{
+  "global_rate": 0.5545,
+  "circuits": {
+    "Abu Dhabi Grand Prix": {
+      "smoothed_rate": 0.2376,
+      "raw_sc_races": 0,
+      "n_races": 4,
+      "street": false
+    },
+    "Australian Grand Prix": {
+      "smoothed_rate": 0.5829,
+      "raw_sc_races": 3,
+      "n_races": 5,
+      "street": true
+    },
+    "Austrian Grand Prix": {
+      "smoothed_rate": 0.4579,
+      "raw_sc_races": 2,
+      "n_races": 5,
+      "street": false
+    },
+    "Azerbaijan Grand Prix": {
+      "smoothed_rate": 0.5233,
+      "raw_sc_races": 2,
+      "n_races": 4,
+      "street": true
+    },
+    "Bahrain Grand Prix": {
+      "smoothed_rate": 0.5233,
+      "raw_sc_races": 2,
+      "n_races": 4,
+      "street": false
+    },
+    "Barcelona Grand Prix": {
+      "smoothed_rate": 0.4158,
+      "raw_sc_races": 0,
+      "n_races": 1,
+      "street": false
+    },
+    "Belgian Grand Prix": {
+      "smoothed_rate": 0.5233,
+      "raw_sc_races": 2,
+      "n_races": 4,
+      "street": false
+    },
+    "British Grand Prix": {
+      "smoothed_rate": 0.7079,
+      "raw_sc_races": 4,
+      "n_races": 5,
+      "street": false
+    },
+    "Canadian Grand Prix": {
+      "smoothed_rate": 0.7079,
+      "raw_sc_races": 4,
+      "n_races": 5,
+      "street": false
+    },
+    "Chinese Grand Prix": {
+      "smoothed_rate": 0.6106,
+      "raw_sc_races": 2,
+      "n_races": 3,
+      "street": false
+    },
+    "Dutch Grand Prix": {
+      "smoothed_rate": 0.6662,
+      "raw_sc_races": 3,
+      "n_races": 4,
+      "street": false
+    },
+    "Emilia Romagna Grand Prix": {
+      "smoothed_rate": 0.6106,
+      "raw_sc_races": 2,
+      "n_races": 3,
+      "street": false
+    },
+    "French Grand Prix": {
+      "smoothed_rate": 0.6658,
+      "raw_sc_races": 1,
+      "n_races": 1,
+      "street": false
+    },
+    "Hungarian Grand Prix": {
+      "smoothed_rate": 0.2376,
+      "raw_sc_races": 0,
+      "n_races": 4,
+      "street": false
+    },
+    "Italian Grand Prix": {
+      "smoothed_rate": 0.3805,
+      "raw_sc_races": 1,
+      "n_races": 4,
+      "street": false
+    },
+    "Japanese Grand Prix": {
+      "smoothed_rate": 0.5829,
+      "raw_sc_races": 3,
+      "n_races": 5,
+      "street": false
+    },
+    "Las Vegas Grand Prix": {
+      "smoothed_rate": 0.4439,
+      "raw_sc_races": 1,
+      "n_races": 3,
+      "street": true
+    },
+    "Mexico City Grand Prix": {
+      "smoothed_rate": 0.5233,
+      "raw_sc_races": 2,
+      "n_races": 4,
+      "street": false
+    },
+    "Miami Grand Prix": {
+      "smoothed_rate": 0.5829,
+      "raw_sc_races": 3,
+      "n_races": 5,
+      "street": true
+    },
+    "Monaco Grand Prix": {
+      "smoothed_rate": 0.5829,
+      "raw_sc_races": 3,
+      "n_races": 5,
+      "street": true
+    },
+    "Qatar Grand Prix": {
+      "smoothed_rate": 0.7772,
+      "raw_sc_races": 3,
+      "n_races": 3,
+      "street": false
+    },
+    "Saudi Arabian Grand Prix": {
+      "smoothed_rate": 0.8091,
+      "raw_sc_races": 4,
+      "n_races": 4,
+      "street": true
+    },
+    "Singapore Grand Prix": {
+      "smoothed_rate": 0.5233,
+      "raw_sc_races": 2,
+      "n_races": 4,
+      "street": true
+    },
+    "Spanish Grand Prix": {
+      "smoothed_rate": 0.3805,
+      "raw_sc_races": 1,
+      "n_races": 4,
+      "street": false
+    },
+    "S\u00e3o Paulo Grand Prix": {
+      "smoothed_rate": 0.8091,
+      "raw_sc_races": 4,
+      "n_races": 4,
+      "street": false
+    },
+    "United States Grand Prix": {
+      "smoothed_rate": 0.5233,
+      "raw_sc_races": 2,
+      "n_races": 4,
+      "street": false
+    }
+  }
+}

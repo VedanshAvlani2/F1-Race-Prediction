@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+ui/node_modules/
+ui/dist/
+logs/
+data/store/raw/
+data/store/replays/
